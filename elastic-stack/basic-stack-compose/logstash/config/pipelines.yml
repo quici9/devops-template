@@ -1,0 +1,11 @@
+- pipeline.id: endpoints
+  path.config: "/usr/share/logstash/pipeline/endpoints.conf"
+  pipeline.workers: 1
+  
+- pipeline.id: unit
+  path.config: "/usr/share/logstash/pipeline/unit.conf"
+  pipeline.workers: 1
+  
+- pipeline.id: devices
+  path.config: "/usr/share/logstash/pipeline/devices.conf"
+  pipeline.workers: 1
